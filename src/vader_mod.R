@@ -97,4 +97,4 @@ wsb_lexicon <- wsb_lexicon_wsb
 
 save(wsb_lexicon, file = "vader/R/sysdata.rda")
 
-install.packages("vader/", repos = NULL, type = "source")
+install.packages("src/vader/", repos = NULL, type = "source")

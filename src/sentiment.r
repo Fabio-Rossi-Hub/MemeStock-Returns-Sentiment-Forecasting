@@ -103,20 +103,20 @@ install.packages("vader/", repos = NULL, type = "source")
 library(vader)
 
 reddit_mentions <- read.csv(file = "data/stock_mentions.csv",
-                           header = TRUE,
-                           sep = ",",
-                           dec = ".")
+                          header = TRUE,
+                          sep = ",",
+                          dec = ".")
 
- vader <- reddit_mentions %>%
-   select(text) %>%
-   distinct() %>%
-  mutate(
-    comment_clean = str_replace_all(text, "\\\\", " "
-                                    )) %>%
-   mutate(sentiment = vader_df(comment_clean)$compound)
+  vader <- reddit_mentions %>%
+    select(text) %>%
+    distinct() %>% 
+    mutate(
+      comment_clean = str_replace_all(text, "\\\\", " "
+                                      )) %>%
+    mutate(sentiment = vader_df(comment_clean)$compound)
 
 reddit_mentions_sentiment <- reddit_mentions %>%
-   left_join(vader %>% select(-comment_clean),
-             by = "text")
+  left_join(vader %>% select(-comment_clean),
+            by = "text")
 
 reddit_mentions_sentiment <- select(reddit_mentions_sentiment, -X)
