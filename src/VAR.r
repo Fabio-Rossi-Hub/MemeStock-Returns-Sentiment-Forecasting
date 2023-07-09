@@ -48,7 +48,7 @@ r50 <- do.call(data.frame,
 # Center and scale
 recipe <-
   recipe(~., data = r50) %>%
-  step_center(all_numeric())  %>%
+  step_center(all_numeric()) %>%
   step_scale(all_numeric())
 
 recipe
