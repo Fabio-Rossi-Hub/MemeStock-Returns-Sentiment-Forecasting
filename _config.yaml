@@ -1,0 +1,9 @@
+title: MemeStocks Forecasting Book
+jupyter_book:
+    toc:
+        - url: README.md
+            title: Introduction
+        - file: notebook/01_Data_Preprocessing.ipynb
+        - file: notebook/02_Sentiment_Analysis.ipynb
+        - file: notebook/03_Feature_Engineering.ipynb
+        - file: notebook/04_VAR_Modeling.ipynb

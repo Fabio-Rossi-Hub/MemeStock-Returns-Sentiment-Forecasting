@@ -25,10 +25,10 @@ This project focuses on analyzing sentiment scores from WallStreetBets subreddit
 
 This project's analysis is presented as a book, where each Jupyter notebook corresponds to a page:
 
-1. [Notebook 1: Data Preprocessing](https://github.com/Fabio-Rossi-Hub/MemeStock-Sentiment-Forecasting/blob/main/notebooks/data_processing.ipynb)
-2. [Notebook 2: VADER Sentiment Analysis](https://github.com/Fabio-Rossi-Hub/MemeStock-Sentiment-Forecasting/blob/main/notebooks/sentiment_analysis.ipynb)
-3. [Notebook 3: R50 Stocks Index Creation](https://github.com/Fabio-Rossi-Hub/MemeStock-Sentiment-Forecasting/blob/main/notebooks/feature_engineering.ipynb)
-4. [Notebook 4: VAR Models](https://github.com/Fabio-Rossi-Hub/MemeStock-Sentiment-Forecasting/blob/main/notebooks/VAR_modelling.ipynb)
+1. [Notebook 1: Data Preprocessing](https://github.com/Fabio-Rossi-Hub/MemeStock-Sentiment-Forecasting/blob/main/notebooks/01_Data_Preprocessing.ipynb)
+2. [Notebook 2: Sentiment Analysis](https://github.com/Fabio-Rossi-Hub/MemeStock-Sentiment-Forecasting/blob/main/notebooks/02_Sentiment_Analysis.ipynb)
+3. [Notebook 3: R50 Stocks Index Creation](https://github.com/Fabio-Rossi-Hub/MemeStock-Sentiment-Forecasting/blob/main/notebooks/03_Feature_Engineering.ipynb)
+4. [Notebook 4: VAR Modeling](https://github.com/Fabio-Rossi-Hub/MemeStock-Sentiment-Forecasting/blob/main/notebooks/04_VAR_Modeling.ipynb)
 
 To view the complete analysis, start with Notebook 1 and proceed through each notebook.
 
