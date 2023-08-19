@@ -7,3 +7,11 @@ jupyter_book:
         - file: notebook/02_Sentiment_Analysis.ipynb
         - file: notebook/03_Feature_Engineering.ipynb
         - file: notebook/04_VAR_Modeling.ipynb
+    exclude:
+        - folder: /data
+        - folder: /src
+        - folder: /.vscode
+        - file: /.gitignore
+        - folder: /notebooks/.ipynb_checkpoints
+
+        
