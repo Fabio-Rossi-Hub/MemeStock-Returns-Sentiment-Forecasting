@@ -12,6 +12,6 @@ jupyter_book:
         - folder: /src
         - folder: /.vscode
         - file: /.gitignore
-        - folder: /notebooks/.ipynb_checkpoints
+        - folder: /notebook/.ipynb_checkpoints
 
         
